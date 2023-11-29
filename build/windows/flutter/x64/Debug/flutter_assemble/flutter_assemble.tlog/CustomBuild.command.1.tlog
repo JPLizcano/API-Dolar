@@ -1,0 +1,28 @@
+^D:\ADSO\TRIMESTRE 5\EJERCICIOS FLUTTER\VALOR_DOLAR\BUILD\WINDOWS\CMAKEFILES\9FA45D2878008D241D793DE9E8317104\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\SENA.MEDAPRCSGFS528\Documents\flutter "PROJECT_DIR=D:\ADSO\Trimestre 5\ejercicios flutter\valor_dolar" FLUTTER_ROOT=C:\Users\SENA.MEDAPRCSGFS528\Documents\flutter "FLUTTER_EPHEMERAL_DIR=D:\ADSO\Trimestre 5\ejercicios flutter\valor_dolar\windows\flutter\ephemeral" "PROJECT_DIR=D:\ADSO\Trimestre 5\ejercicios flutter\valor_dolar" "FLUTTER_TARGET=D:\ADSO\Trimestre 5\ejercicios flutter\valor_dolar\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9hNzk0Y2YyNjgxYzZjOWZlN2IyNjBlMGU4NGRlOTYyOThkYzljMThiLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=D:\ADSO\Trimestre 5\ejercicios flutter\valor_dolar\.dart_tool\package_config.json" C:/Users/SENA.MEDAPRCSGFS528/Documents/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ADSO\TRIMESTRE 5\EJERCICIOS FLUTTER\VALOR_DOLAR\BUILD\WINDOWS\CMAKEFILES\164F63F6AE997D0178A9E4AF888C4646\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ADSO\TRIMESTRE 5\EJERCICIOS FLUTTER\VALOR_DOLAR\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/ADSO/Trimestre 5/ejercicios flutter/valor_dolar/windows" "-BD:/ADSO/Trimestre 5/ejercicios flutter/valor_dolar/build/windows" --check-stamp-file "D:/ADSO/Trimestre 5/ejercicios flutter/valor_dolar/build/windows/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

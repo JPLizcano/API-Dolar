@@ -1,0 +1,10 @@
+D:/ADSO/Trimestre 5/ejercicios flutter/valor_dolar/build/windows/CMakeFiles/INSTALL.dir
+D:/ADSO/Trimestre 5/ejercicios flutter/valor_dolar/build/windows/CMakeFiles/ALL_BUILD.dir
+D:/ADSO/Trimestre 5/ejercicios flutter/valor_dolar/build/windows/CMakeFiles/ZERO_CHECK.dir
+D:/ADSO/Trimestre 5/ejercicios flutter/valor_dolar/build/windows/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+D:/ADSO/Trimestre 5/ejercicios flutter/valor_dolar/build/windows/flutter/CMakeFiles/flutter_wrapper_app.dir
+D:/ADSO/Trimestre 5/ejercicios flutter/valor_dolar/build/windows/flutter/CMakeFiles/flutter_assemble.dir
+D:/ADSO/Trimestre 5/ejercicios flutter/valor_dolar/build/windows/flutter/CMakeFiles/INSTALL.dir
+D:/ADSO/Trimestre 5/ejercicios flutter/valor_dolar/build/windows/runner/CMakeFiles/valor_dolar.dir
+D:/ADSO/Trimestre 5/ejercicios flutter/valor_dolar/build/windows/runner/CMakeFiles/INSTALL.dir
+D:/ADSO/Trimestre 5/ejercicios flutter/valor_dolar/build/windows/runner/CMakeFiles/ALL_BUILD.dir

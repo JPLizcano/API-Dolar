@@ -66,120 +66,82 @@ class _ValorDolarState extends State<ValorDolar> {
         title: const Center(child: Text('Valor del Dolar')),
         backgroundColor: const Color.fromARGB(255, 0, 100, 0),
       ),
-      body: Column(
-        children: [
-          Expanded(
-              child: ListView(
-            children: [
-              Padding(
-                padding: const EdgeInsets.all(10),
-                child: Card(
-                  elevation: 10,
-                  color: const Color.fromARGB(255, 200, 250, 210),
-                  child: Padding(
-                    padding: const EdgeInsets.all(10),
-                    child: Column(
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 5),
-                          child: Row(
-                            children: [
-                              const Padding(
-                                padding: EdgeInsets.only(right: 10),
-                                child: Icon(
-                                  Icons.money,
-                                  color: Color.fromARGB(255, 0, 100, 0),
-                                ),
+      body: Center(
+        child: ListView(
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(10),
+              child: Card(
+                elevation: 10,
+                color: const Color.fromARGB(255, 200, 250, 210),
+                child: Padding(
+                  padding: const EdgeInsets.all(10),
+                  child: Column(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.symmetric(vertical: 5),
+                        child: Row(
+                          children: [
+                            const Padding(
+                              padding: EdgeInsets.only(right: 10),
+                              child: Icon(
+                                Icons.money,
+                                color: Color.fromARGB(255, 0, 100, 0),
                               ),
-                              const Text(
-                                'Valor del dolar hoy: ',
-                                style: TextStyle(fontWeight: FontWeight.bold),
-                              ),
-                              Text('$dato $unidad'),
-                            ],
-                          ),
+                            ),
+                            const Text(
+                              'Valor del dolar hoy: ',
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                            ),
+                            Text('$dato $unidad'),
+                          ],
                         ),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 5),
-                          child: Row(
-                            children: [
-                              const Padding(
-                                padding: EdgeInsets.only(right: 10),
-                                child: Icon(
-                                  Icons.date_range_rounded,
-                                  color: Color.fromARGB(255, 0, 100, 0),
-                                ),
-                              ),
-                              const Text(
-                                'Vigencia desde: ',
-                                style: TextStyle(fontWeight: FontWeight.bold),
-                              ),
-                              Text(desde),
-                            ],
-                          ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 5),
-                          child: Row(
-                            children: [
-                              const Padding(
-                                padding: EdgeInsets.only(right: 10),
-                                child: Icon(
-                                  Icons.date_range_rounded,
-                                  color: Color.fromARGB(255, 0, 100, 0),
-                                ),
-                              ),
-                              const Text(
-                                'Vigencia hasta: ',
-                                style: TextStyle(fontWeight: FontWeight.bold),
-                              ),
-                              Text(hasta),
-                            ],
-                          ),
-                        ),
-                      ],
-                    ),
+                      ),
+                      // Padding(
+                      //   padding: const EdgeInsets.symmetric(vertical: 5),
+                      //   child: Row(
+                      //     children: [
+                      //       const Padding(
+                      //         padding: EdgeInsets.only(right: 10),
+                      //         child: Icon(
+                      //           Icons.date_range_rounded,
+                      //           color: Color.fromARGB(255, 0, 100, 0),
+                      //         ),
+                      //       ),
+                      //       const Text(
+                      //         'Vigencia desde: ',
+                      //         style: TextStyle(fontWeight: FontWeight.bold),
+                      //       ),
+                      //       Text(desde),
+                      //     ],
+                      //   ),
+                      // ),
+                      // Padding(
+                      //   padding: const EdgeInsets.symmetric(vertical: 5),
+                      //   child: Row(
+                      //     children: [
+                      //       const Padding(
+                      //         padding: EdgeInsets.only(right: 10),
+                      //         child: Icon(
+                      //           Icons.date_range_rounded,
+                      //           color: Color.fromARGB(255, 0, 100, 0),
+                      //         ),
+                      //       ),
+                      //       const Text(
+                      //         'Vigencia hasta: ',
+                      //         style: TextStyle(fontWeight: FontWeight.bold),
+                      //       ),
+                      //       Text(hasta),
+                      //     ],
+                      //   ),
+                      // ),
+                    ],
                   ),
                 ),
-              )
-            ],
-          )
-              // ListView.builder(
-              //   itemCount: filteredData.length,
-              //   itemBuilder: (BuildContext context, int index) {
-              //     return ListTile(
-              //       title: Card(
-              //         elevation: 0,
-              //         color: const Color.fromARGB(30, 0, 250, 50),
-              //         child: Column(
-              //           children: [
-              //             Padding(
-              //               padding: const EdgeInsets.only(
-              //                   top: 10, right: 10, left: 10, bottom: 5),
-              //               child: Row(
-              //                 children: [
-              //                   const Padding(
-              //                     padding: EdgeInsets.only(right: 5),
-              //                     child: Icon(
-              //                       Icons.money,
-              //                       color: Color.fromARGB(255, 0, 100, 0),
-              //                     ),
-              //                   ),
-              //                   Text('Valor del dolar: ' +
-              //                       filteredData[index]['valor'] +
-              //                       ' ' +
-              //                       filteredData[index]['unidad']),
-              //                 ],
-              //               ),
-              //             ),
-              //           ],
-              //         ),
-              //       ),
-              //     );
-              //   },
-              // ),
               ),
-        ],
+            )
+          ],
+        ),
       ),
     );
   }

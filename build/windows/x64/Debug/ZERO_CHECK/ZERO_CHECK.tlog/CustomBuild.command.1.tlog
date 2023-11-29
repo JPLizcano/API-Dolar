@@ -1,0 +1,10 @@
+^D:\ADSO\TRIMESTRE 5\EJERCICIOS FLUTTER\VALOR_DOLAR\BUILD\WINDOWS\CMAKEFILES\29118D91DC2F25389D3ADDE4205EDD95\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/ADSO/Trimestre 5/ejercicios flutter/valor_dolar/windows" "-BD:/ADSO/Trimestre 5/ejercicios flutter/valor_dolar/build/windows" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/ADSO/Trimestre 5/ejercicios flutter/valor_dolar/build/windows/valor_dolar.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
