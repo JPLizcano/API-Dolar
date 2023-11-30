@@ -1,0 +1,4 @@
+#Wed Nov 29 17:28:51 COT 2023
+base.0=F\:\\ADSO\\Trimestre 5\\ejercicios flutter\\valor_dolar\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
